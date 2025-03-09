@@ -1,3 +1,5 @@
+#include<math.h>
+
 int Cong(int x, int y) {
 	int Tong;
 	Tong = x + y;
@@ -16,6 +18,6 @@ int Nhan(int x, int y) {
 }
 int Chia(int x, int y) {
 	int Thuong;
-		Thuong = x / y;
-		return Thuong;
+	Thuong =(float) x / y;
+	return Thuong;
 }
