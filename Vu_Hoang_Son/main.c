@@ -1,17 +1,16 @@
 #include<stdio.h>
-#include<math.h>
-#include"toan.h"
 
 void main() {
-	int x = 0;
-	int y = 0;
-	printf("x =");
-	scanf_s("%d", &x);
-	printf("y =");
-	scanf_s("%d", &y);
-	printf("Tong = %d ", Cong(x, y));
-	printf("Hieu = %d", Tru(x, y));
-	printf("Tich = %d", Nhan(x, y));
-	printf("Thuong = %f", Chia(x, y));
-	
+	char str[] = "hello";
+	int cout = 0;
+	int i = 0;
+	while (str[i] != '\0') {
+		i++;
+		cout++;
+	}
+	printf("%d", cout);
+
+
+
+
 }
